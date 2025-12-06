@@ -1600,16 +1600,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 43.18) (xy 190.5 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1490be9d-a269-408e-883d-6ddde2c69af1")
-	)
-	(wire
-		(pts
 			(xy 90.17 58.42) (xy 113.03 58.42)
 		)
 		(stroke
@@ -1628,16 +1618,6 @@
 		)
 		(uuid "222560fb-f494-4300-95c8-94e7bf0d368f")
 	)
-	(wire
-		(pts
-			(xy 172.72 45.72) (xy 190.5 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "226af6d9-7271-466a-9200-8041d9789d3c")
-	)
 	(bus
 		(pts
 			(xy 195.58 101.6) (xy 210.82 101.6)
@@ -1647,6 +1627,16 @@
 			(type default)
 		)
 		(uuid "23769be8-c967-40eb-a2fb-1410e7a78136")
+	)
+	(wire
+		(pts
+			(xy 172.72 43.18) (xy 190.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c6bf64-433c-46e5-90c7-e06d600c96d8")
 	)
 	(bus
 		(pts
@@ -1700,16 +1690,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 50.8) (xy 190.5 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b8e0b3-94c9-4f16-b28a-8f94ea667efb")
-	)
-	(wire
-		(pts
 			(xy 60.96 50.8) (xy 77.47 50.8)
 		)
 		(stroke
@@ -1717,6 +1697,16 @@
 			(type default)
 		)
 		(uuid "3c0916ae-bea8-48fc-b258-67f9d4705f69")
+	)
+	(wire
+		(pts
+			(xy 172.72 45.72) (xy 190.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff962c2-2d9c-4cce-9186-b9842b48dd03")
 	)
 	(wire
 		(pts
@@ -2008,6 +1998,16 @@
 		)
 		(uuid "bbadaebe-31eb-474c-97bd-fa33f1adf831")
 	)
+	(wire
+		(pts
+			(xy 172.72 50.8) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c306c14b-6552-44a3-b501-3790e7a1bc70")
+	)
 	(bus
 		(pts
 			(xy 111.76 101.6) (xy 127 101.6)
@@ -2109,7 +2109,7 @@
 		(uuid "f5284e12-6a8d-400c-b4e9-97840bae4938")
 	)
 	(label "EN_PWR1"
-		(at 62.23 55.88 0)
+		(at 60.96 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2119,7 +2119,7 @@
 		(uuid "0e8f5ac9-4cbc-497c-875a-169ae6241779")
 	)
 	(label "PWR2"
-		(at 173.99 43.18 0)
+		(at 172.72 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2129,7 +2129,7 @@
 		(uuid "112a7c3f-1e15-4519-822a-1b1b9fd19158")
 	)
 	(label "SENSE2"
-		(at 105.41 40.64 180)
+		(at 106.68 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2149,7 +2149,7 @@
 		(uuid "24878f7a-9bbe-4366-8534-366b5f2d008f")
 	)
 	(label "EN_PWR2"
-		(at 105.41 55.88 180)
+		(at 106.68 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2159,7 +2159,7 @@
 		(uuid "40808b7d-39bb-41a7-9a2f-d19133a410f4")
 	)
 	(label "SEL4"
-		(at 105.41 50.8 180)
+		(at 106.68 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,7 +2189,7 @@
 		(uuid "75038a1e-a400-4a1a-b881-e5deeb790063")
 	)
 	(label "LED1"
-		(at 173.99 40.64 0)
+		(at 172.72 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2209,7 +2209,7 @@
 		(uuid "7de43648-bf3d-44e5-9436-5d3cebe125c0")
 	)
 	(label "PWR2"
-		(at 173.99 53.34 0)
+		(at 172.72 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2229,7 +2229,7 @@
 		(uuid "82b8c6d6-4a21-41db-bac3-e825f198927c")
 	)
 	(label "SENSE3"
-		(at 62.23 43.18 0)
+		(at 60.96 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2239,7 +2239,7 @@
 		(uuid "8dc3398e-45c9-43e9-b6c5-9d6a99406cba")
 	)
 	(label "SEL3"
-		(at 62.23 50.8 0)
+		(at 60.96 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2249,7 +2249,7 @@
 		(uuid "8e9856f6-1796-4ce9-a294-30589b4354e0")
 	)
 	(label "SENSE1"
-		(at 62.23 40.64 0)
+		(at 60.96 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2259,7 +2259,7 @@
 		(uuid "92bfdd25-dc48-47e0-adfc-d699b2bc6f2a")
 	)
 	(label "DAC1"
-		(at 105.41 38.1 180)
+		(at 106.68 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2269,7 +2269,7 @@
 		(uuid "97f0e64e-ace4-4346-bb55-31a330bfd0c4")
 	)
 	(label "SENSE4"
-		(at 105.41 43.18 180)
+		(at 106.68 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2279,7 +2279,7 @@
 		(uuid "b93d71c5-8c6d-4b5f-b608-48b2840c2c20")
 	)
 	(label "PWR1"
-		(at 173.99 48.26 0)
+		(at 172.72 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2289,7 +2289,7 @@
 		(uuid "c00c3f26-ab6f-4de3-8eea-299c8d5e4e26")
 	)
 	(label "PWR1"
-		(at 173.99 38.1 0)
+		(at 172.72 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 		(uuid "ce285bdc-d057-48da-b1db-17072f3cfd1a")
 	)
 	(label "LED3"
-		(at 173.99 50.8 0)
+		(at 172.72 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2319,7 +2319,7 @@
 		(uuid "d624dc71-1690-49cb-bbf9-85f5d18fcd36")
 	)
 	(label "LED4"
-		(at 173.99 55.88 0)
+		(at 172.72 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2329,7 +2329,7 @@
 		(uuid "e31519b4-d64f-417b-8896-0e21564d6e9f")
 	)
 	(label "LED2"
-		(at 173.99 45.72 0)
+		(at 172.72 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2339,7 +2339,7 @@
 		(uuid "f3da809f-5d60-46e5-8282-cef0a9d81d74")
 	)
 	(label "DAC1"
-		(at 62.23 38.1 0)
+		(at 60.96 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2349,7 +2349,7 @@
 		(uuid "f3dd529b-1d08-4235-8afe-ef8565ed9356")
 	)
 	(label "SEL1"
-		(at 62.23 48.26 0)
+		(at 60.96 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2359,7 +2359,7 @@
 		(uuid "f4d1acc3-1856-463c-9b62-e82789986675")
 	)
 	(label "SEL2"
-		(at 105.41 48.26 180)
+		(at 106.68 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3282,7 +3282,7 @@
 				(justify left bottom)
 			)
 		)
-		(pin "DAC" input
+		(pin "DAC[1..2]" input
 			(at 170.18 101.6 180)
 			(uuid "31af7a75-53f3-44b5-bb9a-9b0f080b5f00")
 			(effects
@@ -3292,7 +3292,7 @@
 				(justify left)
 			)
 		)
-		(pin "LED" output
+		(pin "LED[1..4]" output
 			(at 195.58 101.6 0)
 			(uuid "eebffc8d-539e-46b8-a822-f69e919797f5")
 			(effects
@@ -3302,7 +3302,7 @@
 				(justify right)
 			)
 		)
-		(pin "SEL" input
+		(pin "SEL[1..4]" input
 			(at 170.18 106.68 180)
 			(uuid "ca4780a2-603f-463a-9fac-87b699d49d53")
 			(effects
@@ -3312,7 +3312,7 @@
 				(justify left)
 			)
 		)
-		(pin "SENSE" output
+		(pin "SENSE[1..4]" output
 			(at 195.58 106.68 0)
 			(uuid "a63342c9-1e41-4ee4-b7cf-d159aa0dffcc")
 			(effects
@@ -3372,7 +3372,7 @@
 				(justify left bottom)
 			)
 		)
-		(pin "EN_PWR" input
+		(pin "EN_PWR[1..2]" input
 			(at 86.36 101.6 180)
 			(uuid "72f4c586-57f2-4f9c-8f82-fe47e630f9ae")
 			(effects
@@ -3382,7 +3382,7 @@
 				(justify left)
 			)
 		)
-		(pin "PWR" output
+		(pin "PWR[1..2]" output
 			(at 111.76 101.6 0)
 			(uuid "23f5f2dc-9408-40f8-8e4d-4fc33aed86f7")
 			(effects

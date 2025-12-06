@@ -1179,7 +1179,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1196,7 +1196,7 @@
 					)
 				)
 			)
-			(property "PN" "YAG4438CT-ND"
+			(property "PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1919,6 +1919,196 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_0603_10K_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K 1%"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "$Local:R_0603_1608Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Size" "0603"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_10K_1_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_10K_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2760,6 +2950,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 129.54) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9bf8d2-8930-4f10-a14c-ff0e18b09ffc")
+	)
+	(wire
+		(pts
 			(xy 91.44 66.04) (xy 93.98 66.04)
 		)
 		(stroke
@@ -3090,16 +3290,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 129.54) (xy 152.4 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4fde5db-f3c9-4eef-a6e8-b5fd960a7acd")
-	)
-	(wire
-		(pts
 			(xy 162.56 86.36) (xy 162.56 88.9)
 		)
 		(stroke
@@ -3209,7 +3399,7 @@
 		(uuid "ffd88965-af6d-4369-ba41-e156710e3f98")
 	)
 	(label "PWR1"
-		(at 41.91 129.54 0)
+		(at 40.64 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3279,7 +3469,7 @@
 		(uuid "d7a14a26-9959-4b94-b415-22edd155e1f6")
 	)
 	(label "PWR2"
-		(at 143.51 129.54 0)
+		(at 142.24 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3288,7 +3478,7 @@
 		)
 		(uuid "ea6461a1-a58e-4927-b58d-25ee09e006eb")
 	)
-	(hierarchical_label "EN_PWR"
+	(hierarchical_label "EN_PWR[1..2]"
 		(shape input)
 		(at 25.4 111.76 180)
 		(effects
@@ -3297,9 +3487,9 @@
 			)
 			(justify right)
 		)
-		(uuid "257cd82e-75da-4201-a909-13cc3befad87")
+		(uuid "4ac6f5d5-3856-4f85-8884-c01d41f04c6b")
 	)
-	(hierarchical_label "PWR"
+	(hierarchical_label "PWR[1..2]"
 		(shape output)
 		(at 243.84 25.4 0)
 		(effects
@@ -3308,7 +3498,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a2a559ef-8140-436f-8faf-4811b0d5f97f")
+		(uuid "88dd6e56-377f-4990-a204-3d5e8ffd6650")
 	)
 	(symbol
 		(lib_id "$Local:BSL307SP")
@@ -3414,7 +3604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0da3ae7a-e6dd-4f14-be66-6d88ce9227eb")
-		(property "Reference" "C16"
+		(property "Reference" "C21"
 			(at 54.61 175.2599 0)
 			(effects
 				(font
@@ -3486,7 +3676,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3502,7 +3692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123e19af-b614-49cc-8a51-da453612e670")
-		(property "Reference" "C14"
+		(property "Reference" "C43"
 			(at 207.01 140.9699 0)
 			(effects
 				(font
@@ -3574,7 +3764,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C14")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -3590,7 +3780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dc26c45-a24b-450d-8a71-e2b99336bc32")
-		(property "Reference" "C11"
+		(property "Reference" "C34"
 			(at 130.81 140.9699 0)
 			(effects
 				(font
@@ -3662,7 +3852,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C11")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3678,7 +3868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f00bf81-d929-4776-8589-8f5a9f65cfc7")
-		(property "Reference" "C17"
+		(property "Reference" "C22"
 			(at 80.01 175.2599 0)
 			(effects
 				(font
@@ -3750,7 +3940,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4137,7 +4327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "522b847e-63f0-491a-b003-a689bee3f5c2")
-		(property "Reference" "C18"
+		(property "Reference" "C23"
 			(at 105.41 175.2599 0)
 			(effects
 				(font
@@ -4209,7 +4399,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C18")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4291,7 +4481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a613a97-962b-4842-a0b3-45623768a105")
-		(property "Reference" "C13"
+		(property "Reference" "C42"
 			(at 181.61 140.9699 0)
 			(effects
 				(font
@@ -4363,7 +4553,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C13")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "775d8988-49e5-48dd-ab05-87cb4e513b92")
-		(property "Reference" "C12"
+		(property "Reference" "C41"
 			(at 156.21 140.9699 0)
 			(effects
 				(font
@@ -4583,7 +4773,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C12")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -4665,7 +4855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88061fec-9bba-4033-b314-25bff63730e0")
-		(property "Reference" "C10"
+		(property "Reference" "C33"
 			(at 105.41 140.9699 0)
 			(effects
 				(font
@@ -4737,7 +4927,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C10")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -4970,7 +5160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a11653c9-7535-42a9-9a41-fba2e9a3a527")
-		(property "Reference" "C8"
+		(property "Reference" "C31"
 			(at 54.61 140.9699 0)
 			(effects
 				(font
@@ -5042,7 +5232,7 @@
 		(instances
 			(project ""
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C8")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -5270,6 +5460,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_0603_10K_1")
 		(lib_id "$Local:R_0603_10K")
 		(at 60.96 82.55 0)
 		(unit 1)
@@ -5315,7 +5506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
 			(at 60.96 82.55 0)
 			(effects
 				(font
@@ -5367,7 +5558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9677b98-a766-47e7-b6c0-1d85eec4664f")
-		(property "Reference" "C19"
+		(property "Reference" "C24"
 			(at 130.81 175.2599 0)
 			(effects
 				(font
@@ -5439,7 +5630,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C19")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5455,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dde0f95e-8a37-4fb8-9f58-224073aca9c6")
-		(property "Reference" "C9"
+		(property "Reference" "C32"
 			(at 80.01 140.9699 0)
 			(effects
 				(font
@@ -5527,7 +5718,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C9")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -5543,7 +5734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ca2591-3f6f-481f-a8f5-5b8cbf6062be")
-		(property "Reference" "C15"
+		(property "Reference" "C44"
 			(at 232.41 140.9699 0)
 			(effects
 				(font
@@ -5615,7 +5806,7 @@
 		(instances
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/ed8a224b-ca38-4f3f-bfc4-14836f79ea5f"
-					(reference "C15")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -5667,7 +5858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
 			(at 162.56 82.55 0)
 			(effects
 				(font
