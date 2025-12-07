@@ -3,14 +3,14 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "04797749-7aaf-42f7-a5f4-0b9aeb0ad7be")
-	(paper "USLetter")
+	(paper "USLedger")
 	(title_block
 		(title "PBM Driver 4 V2")
-		(date "2025-08-08")
+		(date "06-DEC-2025")
 		(rev "A")
 		(comment 1 "Part Number: PCB104 Rev A")
-		(comment 2 "MIT Licesnse")
-		(comment 3 "Copyright (c) 2025 John Vedder ")
+		(comment 4 "Copyright (c) 2025 John Vedder ")
+		(comment 5 "MIT Licesnse")
 	)
 	(lib_symbols
 		(symbol "$Local:+12V"
@@ -3406,4 +3406,42 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "page_border.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDbCYUUAEadXCEA1TZqxSYpSnAbOsWnu5wAOGKZucCZl3dcYTL0/91AwQRSAEsAVgD/+CPx
+				dzg2T9rXcrI3an7jouGi1ezOh1bk14qGq6LtJVv+yL8AAAQEJOi9nNWC0lA2dI1IUp3xe9mvcwwY
+				pdSqs/bFtsweKgACgvIj0oQeaD+FeEP7ql1ikqJU/8j/+2taV+15kUYZvPY9Jz1nvxmDL/bsSX1A
+				LH7t4ttv73yHF4Sz11T/9XHEYO3a4XWE1ZPS/ux9SVHto3cf9DzimcVLlgtF/DWibhntEvILhlEd
+				oRWiF5NSKht30TIaR9bYIibCVV09KV1UiVZgJ63LHBoNw3GbidAMf8+RcyZl/+tgkzb2S5Dnqk0z
+				Ur16ft83qVUA/A0BgaEm6rWwqkXrotKENS0E6XrkiBuzXh1Fm0wqDQWkyyydpkE4DLMqxCSjaJLt
+				YR+gFb23ragm1STd1olvu0orDW2/e4cbHE6DcKP6vTHjTWcnPctFswR/oPFEhpiZGilIkhQ6gESk
+				5qgb3CxretTr9BpjnUPKBejj68hIWHXeGXbd76oRwjGe+y02dhgIA1rrFE+mfJskA26zeBI+4bq4
+				DMRpBZhjenLy1GRn80Jy0u2Y5rj808R8KoM9hSjUJJa2C0N8Dg5vjitL4gPsK8MZNRDQZk75MkGw
+				EhYVBJhgeRoN1S6lGibLxqmD+IL+JxNj0kIOmuHz9EQNAxpy+kdfWTY3Oewpt6hrLr201YYCId05
+				7YkCBW+cxQe/OeY92grYWdwSljv+vVeGLTW46RUEglQ9OSWgqckjjAGCPOsQfUoGgb3oYfJq4HDQ
+				YVaPljlb8iShZTlZ2xDiJn7D3qVXk5qmaWP9N5aHqLvM9SEdg1UF|
+			)
+			(checksum "6039F5CC61CD652B2049308EC7354FC7")
+		)
+		(file
+			(name "page_layout.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDaCa0UAHadXSEAtxsWHGS5ac4JWlhdTS3ZQeABkGbFFme+cSP//z/UEwFTAEwAWAD4H38k
+				/o/H5kn7Wk/2Rs53XDRg1Jr9+dCS/FrRgFm0/WTLL/kXAICAgBS9l9NaVJzKhs4Ryaozfi/7dY8h
+				o5Redda+2JbZRwVAQFCGSJzQA22oEH9xhzZWu8RkRav+kv/32Lyw2hMzlTJ47XtOes5+MwZf7Nmz
+				CoFY/NrFt9/++Q6vCGevq/7r44jB2rXD64irJ6X92fuyqtpH7z7oeQyXzaJZ/GQxoYi/RlROs11G
+				fsmyqiPUQvRiUkqFw1w2DcehNbgIioBZWE9KF1aiFVlq6zQHZ8tgMByK0Ax/z5FzNmX/62CbOvZL
+				EQirTTVTxXp+3zfpVQAEAYGhJiq2uOqFqIuLJuq8aEfZJqbrkSNuzLqhaJZJpaGAdJql2zYIJssu
+				CzHRKJuEe9gHaEXvbSusSTdJx3Xi267SSkPb7/7BDA6pQchV/d6Ycaezk54lf6DxRIYYmhIpSJIU
+				OoBEpOaoG9wsa3rU6/QaY41Dyv3n4+vISFh13hl23e+qEcIxNhf2zcVyL5Bss9btToZ8myQDbrN4
+				Ej7hurgMxGkFmGN6cvLUZGfzQnLSfUxzXP5pYj6VwT2FKNQklrYLQ3wODm+OK0viA+wrw48aYGjz
+				Uz6bIJiEcQUBJlieRkO1S6mGybJx6iC+oP/JxJi0kINm+JQ9UcOAhpz+0VeWzU0Oe8ot6ppLL221
+				oUBId057okDBG2fxwW+OeY+2AnYWt0TLHf/eK8OWGtz0CgJBqp6cEtDU5BHGAEH+dEifkuFlL3qY
+				vBo4HHSY1aNlzpY8SWhZTtY2hLiJ37B36dWkpmnaWP+N5SHqLnN9SMdgVQE=|
+			)
+			(checksum "07D7725DAC4C4B8B97A720EC92CF34C3")
+		)
+	)
 )

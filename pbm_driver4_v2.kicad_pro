@@ -596,7 +596,7 @@
       "version": 1
     },
     "net_format_name": "PADS",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://page_border.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,

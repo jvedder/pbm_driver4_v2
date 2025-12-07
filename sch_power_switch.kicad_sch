@@ -3,14 +3,14 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "f478ba2d-ca92-46a1-a631-cbd7e9a9947c")
-	(paper "USLetter")
+	(paper "USLedger")
 	(title_block
 		(title "PBM Driver 4 V2")
-		(date "2025-08-08")
+		(date "06-DEC-2025")
 		(rev "A")
 		(comment 1 "Part Number: PCB104 Rev A")
-		(comment 2 "MIT Licesnse")
-		(comment 3 "Copyright (c) 2025 John Vedder ")
+		(comment 4 "Copyright (c) 2025 John Vedder ")
+		(comment 5 "MIT Licesnse")
 	)
 	(lib_symbols
 		(symbol "$Local:+12V"
