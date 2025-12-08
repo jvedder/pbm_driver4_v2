@@ -3305,7 +3305,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ed8a224b-ca38-4f3f-bfc4-14836f79ea5f")
-		(property "Sheetname" "Power Switch"
+		(property "Sheetname" "Power"
 			(at 86.36 95.4909 0)
 			(effects
 				(font
@@ -3314,7 +3314,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sch_power_switch.kicad_sch"
+		(property "Sheetfile" "sch_power.kicad_sch"
 			(at 86.36 122.5046 0)
 			(effects
 				(font
