@@ -2084,15 +2084,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_1x??_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Conn_01x10_1_1"
 			(rectangle
 				(start -1.27 11.43)
@@ -2450,15 +2441,6 @@
 			)
 		)
 		(property "ki_keywords" "connector"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Connector*:*_2x??_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6008,7 +5990,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SC?70*"
+		(property "ki_fp_filters" "*SC?70*"
 			(at 0 0 0)
 			(effects
 				(font
