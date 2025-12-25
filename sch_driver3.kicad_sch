@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "PBM Driver 4 V2")
-		(date "23-DEC-2025")
+		(date "24-DEC-2025")
 		(rev "A")
 		(comment 1 "Part Number: PCB104 Rev A")
 		(comment 4 "Copyright (c) 2025 John Vedder ")
@@ -2824,78 +2824,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f01dffe8-144f-4783-a398-f6c3b77a9900")
-	)
-	(bus_entry
-		(at 389.89 226.06)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27c5c67e-299b-4377-b5b7-e0ea99d0e51b")
-	)
-	(bus_entry
-		(at 389.89 223.52)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a4942f6-72bd-4cc4-905f-51cb49cba438")
-	)
-	(bus_entry
-		(at 391.16 181.61)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ff955d5-4124-4a65-a836-8d02dd464cf0")
-	)
-	(bus_entry
-		(at 391.16 179.07)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f90ce4a-9ca4-4b28-bc0d-a8c1d103bdad")
-	)
-	(bus_entry
-		(at 389.89 220.98)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac1ab6da-0909-4c81-830d-953c71a5458a")
-	)
-	(bus_entry
-		(at 391.16 184.15)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e23a7307-091c-4c8a-a847-aa98fec3be1e")
-	)
-	(bus_entry
-		(at 391.16 176.53)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f69270eb-671a-4cdf-b0a2-357e1af4ad81")
-	)
-	(bus_entry
-		(at 389.89 218.44)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff692279-0d4c-4f98-8740-88734b628f09")
 	)
 	(wire
 		(pts
