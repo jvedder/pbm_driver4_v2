@@ -120,7 +120,7 @@
       "images": true,
       "labels": true,
       "lockedItems": false,
-      "otherItems": false,
+      "otherItems": true,
       "pins": true,
       "symbols": true,
       "text": true,

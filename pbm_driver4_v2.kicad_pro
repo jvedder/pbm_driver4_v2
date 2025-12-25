@@ -627,7 +627,7 @@
       "version": 1
     },
     "net_format_name": "PADS",
-    "page_layout_descr_file": "kicad-embed://page_border.kicad_wks",
+    "page_layout_descr_file": "page_border.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -645,8 +645,20 @@
       "Root"
     ],
     [
-      "398d87e9-1198-421c-98e4-0b2a965a98cd",
-      "Driver"
+      "69524e69-370d-45a1-972c-d2766add5424",
+      "Driver1"
+    ],
+    [
+      "4a4bbbb0-66db-4dbb-adf8-ecfc17002d21",
+      "Driver2"
+    ],
+    [
+      "8ef61302-d9b8-4eae-8136-04cfb82addb3",
+      "Driver3"
+    ],
+    [
+      "0d8fba0c-1337-4987-b588-0137eadfd0ea",
+      "Driver4"
     ]
   ],
   "text_variables": {}
