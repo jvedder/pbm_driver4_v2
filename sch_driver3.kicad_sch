@@ -3655,6 +3655,16 @@
 		)
 		(uuid "da7bb1ad-f6a4-4e51-917f-8a7a47e290fd")
 	)
+	(label "OUT"
+		(at 110.49 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "feb4b8af-0ba8-427f-9b14-76f80600b367")
+	)
 	(hierarchical_label "LED"
 		(shape output)
 		(at 241.3 33.02 0)

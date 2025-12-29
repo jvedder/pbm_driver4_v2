@@ -3408,6 +3408,16 @@
 		)
 		(uuid "408184be-822d-4015-a8e2-95029a1629c0")
 	)
+	(label "OUT"
+		(at 110.49 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "585ee848-7c8e-459d-85be-71c058cfb1d6")
+	)
 	(label "SENSE_R"
 		(at 144.78 68.58 0)
 		(effects
