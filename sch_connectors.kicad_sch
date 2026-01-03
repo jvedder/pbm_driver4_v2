@@ -2540,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 171.45) (xy 29.21 177.8)
+			(xy 29.21 172.72) (xy 29.21 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6075,7 +6075,7 @@
 	)
 	(symbol
 		(lib_id "$Local:GND")
-		(at 29.21 177.8 0)
+		(at 29.21 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6084,7 +6084,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3894709-6aa9-4dd6-aa0b-67bee7680aca")
 		(property "Reference" "#PWR08"
-			(at 29.21 184.15 0)
+			(at 29.21 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 182.88 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 177.8 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +6110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 177.8 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +6119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 177.8 0)
+			(at 29.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6229,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 29.21 171.45 0)
+		(at 29.21 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6238,7 +6238,7 @@
 		(fields_autoplaced yes)
 		(uuid "edfcbd6e-bf7a-48da-8d07-4525e8358f13")
 		(property "Reference" "#FLG01"
-			(at 29.21 169.545 0)
+			(at 29.21 170.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6247,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 166.37 0)
+			(at 29.21 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 171.45 0)
+			(at 29.21 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6264,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 171.45 0)
+			(at 29.21 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6273,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 171.45 0)
+			(at 29.21 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

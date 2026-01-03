@@ -3173,6 +3173,12 @@
 		(color 0 0 0 0)
 		(uuid "f01dffe8-144f-4783-a398-f6c3b77a9900")
 	)
+	(junction
+		(at 237.49 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f83f5e3c-231b-4d5a-82e9-38c6a965e6d5")
+	)
 	(wire
 		(pts
 			(xy 73.66 60.96) (xy 73.66 73.66)
@@ -3182,6 +3188,16 @@
 			(type default)
 		)
 		(uuid "0256b3e2-f3eb-4b51-9d5a-e70dc4388456")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 241.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027be1ca-3523-49cd-a5b9-387814a55855")
 	)
 	(wire
 		(pts
@@ -3665,6 +3681,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 71.12) (xy 237.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ecb755-865d-40c6-a7db-5082d64a67a3")
+	)
+	(wire
+		(pts
 			(xy 54.61 55.88) (xy 54.61 53.34)
 		)
 		(stroke
@@ -3905,7 +3931,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 71.12) (xy 241.3 71.12)
+			(xy 226.06 71.12) (xy 237.49 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3972,6 +3998,16 @@
 			(type default)
 		)
 		(uuid "fd3ac753-a9a8-4f39-b8f3-61983e37199a")
+	)
+	(wire
+		(pts
+			(xy 237.49 88.9) (xy 237.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe059626-f22b-48dd-bcc4-33477a9daf39")
 	)
 	(label "SENSE"
 		(at 234.95 71.12 180)
@@ -4221,6 +4257,160 @@
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/8ef61302-d9b8-4eae-8136-04cfb82addb3"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "$Local:R_0603_10K")
+		(at 237.49 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "043d048b-2837-42f6-8014-a2231ff4215b")
+		(property "Reference" "R73"
+			(at 240.03 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K 1%"
+			(at 240.03 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "$Local:R_0603_1608Metric"
+			(at 238.506 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0603"
+			(at 240.03 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "PN" ""
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6371ae3f-a7ed-45d5-97e8-eb76a77a3330")
+		)
+		(pin "2"
+			(uuid "78fb92ef-a2f4-458d-8723-f40b7668f109")
+		)
+		(instances
+			(project "pbm_driver4_v2"
+				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/8ef61302-d9b8-4eae-8136-04cfb82addb3"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "$Local:GND")
+		(at 237.49 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b7a246e-5aff-4a13-aa1f-c5b354aacbf4")
+		(property "Reference" "#PWR036"
+			(at 237.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5249f3ee-5e9e-406f-8393-372dbbad8d2f")
+		)
+		(instances
+			(project "pbm_driver4_v2"
+				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/8ef61302-d9b8-4eae-8136-04cfb82addb3"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)

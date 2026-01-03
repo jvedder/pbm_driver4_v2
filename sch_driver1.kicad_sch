@@ -3138,6 +3138,12 @@
 		(uuid "88daa588-93b6-44dc-b72e-e4813796e488")
 	)
 	(junction
+		(at 237.49 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99290d1e-69cb-434d-b44c-e8c348b19eba")
+	)
+	(junction
 		(at 95.25 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3485,6 +3491,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 71.12) (xy 237.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6645d414-d729-4595-a816-f72cb055aff3")
+	)
+	(wire
+		(pts
 			(xy 33.02 48.26) (xy 57.15 48.26)
 		)
 		(stroke
@@ -3572,6 +3588,16 @@
 			(type default)
 		)
 		(uuid "9d9cbf4e-7bd0-4a05-b20e-ff1912bbdada")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 241.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f155448-47fb-4144-8a67-11a57c8e9b0d")
 	)
 	(wire
 		(pts
@@ -3895,6 +3921,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 88.9) (xy 237.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33af855-20fe-4800-9615-e2291bdc6000")
+	)
+	(wire
+		(pts
 			(xy 41.91 68.58) (xy 41.91 71.12)
 		)
 		(stroke
@@ -3905,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 71.12) (xy 241.3 71.12)
+			(xy 226.06 71.12) (xy 237.49 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5791,6 +5827,94 @@
 		)
 	)
 	(symbol
+		(lib_id "$Local:R_0603_10K")
+		(at 237.49 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88a1bae7-c02f-485e-b3f9-deb5aeb34a64")
+		(property "Reference" "R71"
+			(at 240.03 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K 1%"
+			(at 240.03 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "$Local:R_0603_1608Metric"
+			(at 238.506 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0603"
+			(at 240.03 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "PN" ""
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a87d8d29-3787-437c-9002-2f8905ed5c5a")
+		)
+		(pin "2"
+			(uuid "43a86360-6178-404b-92da-8d05b0d9822b")
+		)
+		(instances
+			(project ""
+				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/69524e69-370d-45a1-972c-d2766add5424"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "$Local:C_0603_100NF_50V")
 		(at 220.98 49.53 0)
 		(unit 1)
@@ -6657,6 +6781,72 @@
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/69524e69-370d-45a1-972c-d2766add5424"
 					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "$Local:GND")
+		(at 237.49 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1465ba-3207-40cc-861e-c8f6fc3f53fe")
+		(property "Reference" "#PWR034"
+			(at 237.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3690efd6-c379-447d-a6bf-aa194c2173f9")
+		)
+		(instances
+			(project "pbm_driver4_v2"
+				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/69524e69-370d-45a1-972c-d2766add5424"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

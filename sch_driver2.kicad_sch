@@ -3066,6 +3066,12 @@
 		(uuid "01631890-c415-4324-b278-08c135e4d3ee")
 	)
 	(junction
+		(at 237.49 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10f7930b-9c48-4935-b90a-661397947be5")
+	)
+	(junction
 		(at 213.36 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3180,6 +3186,16 @@
 			(type default)
 		)
 		(uuid "0513573f-9539-4a92-be36-5914f0e8dfef")
+	)
+	(wire
+		(pts
+			(xy 237.49 88.9) (xy 237.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f78501-4606-44fd-8ff6-8b359c041ce6")
 	)
 	(wire
 		(pts
@@ -3350,6 +3366,16 @@
 			(type default)
 		)
 		(uuid "3f40b303-c15b-4d36-883a-b718710aafd7")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 237.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c11a33-c47c-4a2f-912a-55eb2a7873f4")
 	)
 	(wire
 		(pts
@@ -3773,6 +3799,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 71.12) (xy 241.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8403076-a206-4c23-94e1-f2995d9a8f17")
+	)
+	(wire
+		(pts
 			(xy 64.77 40.64) (xy 64.77 43.18)
 		)
 		(stroke
@@ -3823,7 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 71.12) (xy 241.3 71.12)
+			(xy 226.06 71.12) (xy 237.49 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4125,6 +4161,94 @@
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/4a4bbbb0-66db-4dbb-adf8-ecfc17002d21"
 					(reference "#PWR28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "$Local:R_0603_10K")
+		(at 237.49 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "079bcb1a-b33a-46d4-8a60-823dd6106fc3")
+		(property "Reference" "R72"
+			(at 240.03 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K 1%"
+			(at 240.03 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "$Local:R_0603_1608Metric"
+			(at 238.506 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0603"
+			(at 240.03 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "PN" ""
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cafce12-8f90-483a-813d-c2fbcd807c21")
+		)
+		(pin "2"
+			(uuid "24e25047-36ec-4826-9e7f-6be8d66bc437")
+		)
+		(instances
+			(project "pbm_driver4_v2"
+				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/4a4bbbb0-66db-4dbb-adf8-ecfc17002d21"
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -6020,6 +6144,72 @@
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/4a4bbbb0-66db-4dbb-adf8-ecfc17002d21"
 					(reference "#PWR224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "$Local:GND")
+		(at 237.49 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc4ee221-eedd-4002-9118-f0985cef3ffb")
+		(property "Reference" "#PWR035"
+			(at 237.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "289a36be-64d2-4320-ae40-78dc668ed08b")
+		)
+		(instances
+			(project "pbm_driver4_v2"
+				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/4a4bbbb0-66db-4dbb-adf8-ecfc17002d21"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
