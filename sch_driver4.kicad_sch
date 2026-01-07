@@ -263,6 +263,221 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "$Local:ADA4099-1"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ADA4099-1"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "$Local:TSOT-23-6"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4099-1_ada4099-2.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.15..50V supply, 8MHz GBW, Rail-to-Rail input/output, over-the-top opamp with shutdown, TSOT-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "TSOT-23-6"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Digikey" "505-ADA4099-1BUJZ-RL7CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single operational amplifier analog-devices high-voltage rrio"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADA4099-1_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ADA4099-1_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "$Local:ADA4099-2xR"
 			(pin_names
 				(offset 0.127)
@@ -1100,7 +1315,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "$Local:OPA333"
+		(symbol "$Local:OPA365AIDBV"
 			(pin_names
 				(offset 0.127)
 			)
@@ -1108,34 +1323,43 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
+				(at 0 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA365AIDBV"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "$Local:SOT-23-5"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa365.pdf"
 				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-				)
-			)
-			(property "Value" "OPA333"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(property "Description" "50-MHz, Zero-Crossover, Low-Distortion, High CMRR, RRI/O, Single-Supply, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1144,7 +1368,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"
+			(property "Package" "SOT-23-5"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Digikey" "296-26283-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1162,7 +1395,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23* *SC*70*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1171,7 +1404,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA333_0_1"
+			(symbol "OPA365AIDBV_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -1221,7 +1454,7 @@
 					)
 				)
 			)
-			(symbol "OPA333_1_1"
+			(symbol "OPA365AIDBV_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1232,7 +1465,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1250,7 +1483,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1268,7 +1501,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2861,203 +3094,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:ADA4099-1xUJ"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ADA4099-1xUJ"
-				(at 1.27 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4099-1_ada4099-2.pdf"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.15..50V supply, 8MHz GBW, Rail-to-Rail input/output, over-the-top opamp with shutdown, TSOT-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "single operational amplifier analog-devices high-voltage rrio"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ADA4099-1xUJ_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ADA4099-1xUJ_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "~{SHDN}"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 208.28 88.9)
@@ -3108,6 +3144,12 @@
 		(uuid "466fbeb5-7c68-42e9-87dd-7da666be4621")
 	)
 	(junction
+		(at 99.06 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59fd78b2-7c35-45cd-9332-53ec9021da7c")
+	)
+	(junction
 		(at 118.11 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3136,12 +3178,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85c135b4-16d2-4b9a-9012-a599c6091351")
-	)
-	(junction
-		(at 99.06 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b0de174-1f1b-460e-b5d5-85ce363fd053")
 	)
 	(junction
 		(at 95.25 147.32)
@@ -4407,6 +4443,104 @@
 		)
 	)
 	(symbol
+		(lib_id "$Local:ADA4099-1")
+		(at 101.6 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18e91eb4-d59e-48cd-b0b2-988c3f0ddc9f")
+		(property "Reference" "U6"
+			(at 114.3 95.1798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4099-1"
+			(at 114.3 97.7198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "$Local:TSOT-23-6"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4099-1_ada4099-2.pdf"
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.15..50V supply, 8MHz GBW, Rail-to-Rail input/output, over-the-top opamp with shutdown, TSOT-6"
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSOT-23-6"
+			(at 114.3 100.2598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "505-ADA4099-1BUJZ-RL7CT-ND"
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "40b83425-1809-4d81-b608-c2db3722a12f")
+		)
+		(pin "6"
+			(uuid "a989bda1-ab4c-4f05-8ca8-138f370e1042")
+		)
+		(pin "1"
+			(uuid "114dde09-df1d-4563-9e4a-b6b5e163805c")
+		)
+		(pin "5"
+			(uuid "4965c8ed-3304-492c-98be-42ccc46ea873")
+		)
+		(pin "4"
+			(uuid "9de6e6b6-3cea-4d1a-887b-8909b22fed66")
+		)
+		(pin "2"
+			(uuid "0103f1e5-d91d-4b3f-af17-0668804c652c")
+		)
+		(instances
+			(project "pbm_driver4_v2"
+				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/0d8fba0c-1337-4987-b588-0137eadfd0ea"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "$Local:C")
 		(at 33.02 64.77 0)
 		(unit 1)
@@ -4728,6 +4862,103 @@
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/0d8fba0c-1337-4987-b588-0137eadfd0ea"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "$Local:OPA365AIDBV")
+		(at 215.9 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e8160ab-10ec-4190-82ce-a1c00782e54a")
+		(property "Reference" "U24"
+			(at 216.535 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA365AIDBV"
+			(at 216.535 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "$Local:SOT-23-5"
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa365.pdf"
+			(at 215.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50-MHz, Zero-Crossover, Low-Distortion, High CMRR, RRI/O, Single-Supply, SOT-23-5"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5"
+			(at 216.535 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Digikey" "296-26283-1-ND"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c843963-0d70-4443-9680-21f7cd1b3173")
+		)
+		(pin "5"
+			(uuid "2d5c8a9f-9aa7-4298-a610-76f242ee2959")
+		)
+		(pin "2"
+			(uuid "10d51c87-997e-455a-95b5-a31988c1ac04")
+		)
+		(pin "4"
+			(uuid "76c8924b-c2a0-4458-ba33-dd3fe4dea56c")
+		)
+		(pin "3"
+			(uuid "225adc79-4394-4f1a-b5d0-6c091667aa31")
+		)
+		(instances
+			(project "pbm_driver4_v2"
+				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/0d8fba0c-1337-4987-b588-0137eadfd0ea"
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -5214,99 +5445,6 @@
 			(project "pbm_driver4_v2"
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/0d8fba0c-1337-4987-b588-0137eadfd0ea"
 					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "$Local:OPA333")
-		(at 215.9 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44d2bdf2-8991-4f23-8a9f-c0886be4a51c")
-		(property "Reference" "U24"
-			(at 221.615 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA333"
-			(at 221.615 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 215.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Voltage Rail-to-Rail Output Operational Amplifier, SC-70-5"
-			(at 215.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SC70-5"
-			(at 221.615 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d62a65e3-e985-4bea-80f1-40ff9093e732")
-		)
-		(pin "5"
-			(uuid "e5b29e9f-e8f8-4669-b869-b38ce00749a5")
-		)
-		(pin "2"
-			(uuid "b8dc62da-9862-456b-b5c8-76791522f38c")
-		)
-		(pin "3"
-			(uuid "12606f5b-838a-45f7-96bb-5bb0ccfcdbcb")
-		)
-		(pin "4"
-			(uuid "7705b3bb-0868-4f66-a66a-49df03d1632c")
-		)
-		(instances
-			(project ""
-				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/0d8fba0c-1337-4987-b588-0137eadfd0ea"
-					(reference "U24")
-					(unit 1)
-				)
-				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/4a4bbbb0-66db-4dbb-adf8-ecfc17002d21"
-					(reference "U22")
-					(unit 1)
-				)
-				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/69524e69-370d-45a1-972c-d2766add5424"
-					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -6672,112 +6810,6 @@
 				)
 				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/69524e69-370d-45a1-972c-d2766add5424"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:ADA4099-1xUJ")
-		(at 101.6 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2401060-eaee-4846-a443-dc3097daa8de")
-		(property "Reference" "U6"
-			(at 101.6 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4099-2xR"
-			(at 101.6 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 101.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4099-1_ada4099-2.pdf"
-			(at 101.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.15..50V supply, 8MHz GBW, Rail-to-Rail input/output, over-the-top opamp with shutdown, TSOT-6"
-			(at 101.6 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "505-ADA4099-2BRZ-ND"
-			(at 101.6 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "505-ADA4099-2BRZ-ND"
-			(at 101.6 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8"
-			(at 101.854 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe5b0034-0fbe-4d96-b249-0dcf0986260d")
-		)
-		(pin "3"
-			(uuid "3a4cf93a-6023-4593-9e1c-39042333c199")
-		)
-		(pin "2"
-			(uuid "14734fa5-a05f-4b5f-bdca-d0acc8722dba")
-		)
-		(pin "6"
-			(uuid "77726482-caf2-4707-8ea5-571b4a229b28")
-		)
-		(pin "5"
-			(uuid "5a60fce9-3e8d-4bf0-a03c-c4603c365950")
-		)
-		(pin "4"
-			(uuid "413a3066-6884-4633-b926-de189bc4b633")
-		)
-		(instances
-			(project "pbm_driver4_v2"
-				(path "/04797749-7aaf-42f7-a5f4-0b9aeb0ad7be/0d8fba0c-1337-4987-b588-0137eadfd0ea"
-					(reference "U6")
 					(unit 1)
 				)
 			)
