@@ -1,0 +1,29 @@
+=============================
+ PBM Driver4 V2 Design Notes
+=============================
+Copyright (c) 2025 John Vedder
+MIT License
+
+------------
+ PCB Design
+------------
+Via land size per IPC 2221B, section 9.1
+
+    Land Size =  a + 2b + c
+
+where:
+     a = max drill size
+
+     b = annular ring requirements:
+         Internal plated:     0.025 mm [1 mil]
+         External plated:     0.050 mm [2 mil]
+         External non-plated: 0.150 mm [6 mil]
+
+     c = fabrication allowance:
+         Level A:  0.40 mm [16 mil]   (Preferred producibility)
+         Level B:  0.25 mm [10 mil]   (Standard producibility)
+         Level C:  0.20 mm [ 8 mil]   (Reduced producibility)
+
+Standard via used:  0.40 mm hole, 0.80 mm pad
+     so a = 0.40, b = 0.50, c=0.3 (between level A and B)
+ 
