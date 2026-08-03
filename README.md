@@ -1,6 +1,6 @@
 # pdm_driver4_v2
  
-PCB Design in KiCad 9 with 4 channels of high-speed, current-controlled LED drivers for a PBM Device prototype.
+PCB Design in KiCad 10 with 4 channels of high-speed, current-controlled LED drivers for a PBM Device prototype.
  
 **MIT License**
  

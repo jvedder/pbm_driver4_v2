@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "04797749-7aaf-42f7-a5f4-0b9aeb0ad7be")
 	(paper "A")
 	(title_block
@@ -9,7 +9,7 @@
 		(date "24-DEC-2025")
 		(rev "A")
 		(comment 1 "Part Number: PCB104 Rev A")
-		(comment 4 "Copyright (c) 2025 John Vedder ")
+		(comment 4 "Copyright (c) 2026 John Vedder ")
 		(comment 5 "MIT Licesnse")
 	)
 	(lib_symbols)
@@ -718,11 +718,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0d8fba0c-1337-4987-b588-0137eadfd0ea")
 		(property "Sheetname" "Driver4"
 			(at 165.1 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,6 +734,8 @@
 		)
 		(property "Sheetfile" "sch_driver4.kicad_sch"
 			(at 165.1 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,11 +804,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4a4bbbb0-66db-4dbb-adf8-ecfc17002d21")
 		(property "Sheetname" "Driver2"
 			(at 165.1 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,6 +820,8 @@
 		)
 		(property "Sheetfile" "sch_driver2.kicad_sch"
 			(at 165.1 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,11 +890,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "69524e69-370d-45a1-972c-d2766add5424")
 		(property "Sheetname" "Driver1"
 			(at 165.1 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,6 +906,8 @@
 		)
 		(property "Sheetfile" "sch_driver1.kicad_sch"
 			(at 165.1 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,11 +976,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8ef61302-d9b8-4eae-8136-04cfb82addb3")
 		(property "Sheetname" "Driver3"
 			(at 165.1 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,6 +992,8 @@
 		)
 		(property "Sheetfile" "sch_driver3.kicad_sch"
 			(at 165.1 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,11 +1062,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c5ceed34-66fb-4513-af2e-2caf0da5b390")
 		(property "Sheetname" "Connectors"
 			(at 76.2 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,6 +1078,8 @@
 		)
 		(property "Sheetfile" "sch_connectors.kicad_sch"
 			(at 76.2 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
